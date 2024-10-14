@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+
+    color:gray;
+    background-color: black;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+body {
+    height: 100vh;
+}
+
+a {
+    text-decoration: underline;
+    
+}
+
+h1 {
+    text-align: start;
+    color: whitesmoke;
+
+    margin: 15px;
+}
+
+nav {
+    border-bottom: 1px solid gray;
+    margin-top: 40px;
+    padding: 10px ;    
+    padding-bottom: 30px;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    
+    width: 100%;
+}
+
+li {
+    list-style: none;
+    border-bottom: 1px solid gray;
+}
+
+li:hover {
+    a {
+        color: white;
+        cursor: pointer;
+    }
+
+    border-bottom: 1px solid rgb(255, 255, 255);    
+    transition: all 0.8s ease-in-out;
+}
+
+main {
+    padding: 50px;
+}
+
+#content {
+    margin: auto;
+    text-align: justify;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+
+    width: 100%;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    width: 100%;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;    
+    color: gray;
+    text-align: center;
+    margin-bottom: 30px;
+    border-top: 1px solid gray;
+    width: 100%;
+}
