@@ -5,12 +5,12 @@ function router() {
   // cria rotas do site
   const routes = {    
     '#about': () => {
-      renderContent('<h1>Sobre mim</h1><p> Sobre mim Olá! Meu nome é Arthur e sou um desenvolvedor web em formação. Gosto de aprender coisas novas e resolver problemas complexos. Nos meus tempos livres, gosto de programar jogos.</p>');
+      renderContent('<h1>Sobre mim</h1><p>Olá! Meu nome é Arthur e sou um desenvolvedor web em formação. Gosto de aprender coisas novas e resolver problemas complexos. No meu tempo livre gosto de programar jogos.</p>');
     },
     '#formacao-educacional': () => {
       renderContent(
         `<h1>Formação Educacional</h1>
-        <p> Eu atualmente estou estudando na Uninter e tenho experiência em programação com React, Node, e outros frameworks e bibliotecas. Além disso, eu tenho conhecimento em versionamento com git e github.</p>`);
+        <p> Eu atualmente estou cursando Engenharia de Software na Uninter e tenho experiência em programação com React, Node, e outros frameworks e bibliotecas. Além disso, eu tenho conhecimento em versionamento com git e github.</p>`);
     },
     '#meu-portfolio': () => {
       renderContent('<h1>Meu Portfolio</h1><p> Veja alguns de meus projetos acessando <a href="https://github.com/arthurwieb" target="_blank"> meu Github </a> </p>');
